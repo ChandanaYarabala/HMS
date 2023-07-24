@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+html,
+body {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1rem;
+	line-height: 1.6;
+	font-family: montserrat;
+	background: #6B69B5;
+	height: 100vh;
+	overflow: hidden;
+}
+
+ul {
+	list-style: none;
+}
+
+header {
+	background-color: #EFF5F5;
+	padding: 2rem 0;
+}
+
+nav {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.menu>li,
+.menu>a {
+	display: inline-block;
+}
+
+.menu a {
+	text-decoration: none;
+	color: Black;
+	display: block;
+	padding: 10px 1.5rem;
+	transition: background-color .22s ease, color .22s ease;
+}
+
+.menu a:hover {
+	background-color: grey;
+
+}
+
+nav img {
+	box-shadow: 5px 20px 50px #000;
+}
+
+body {
+	font-size: 1rem;
+	line-height: 1.6;
+	font-family: montserrat;
+}
+
+.Container {
+	text-align: center;
+	position: relative;
+	transform: translate(0, 55%);
+	margin: 0 auto;
+	width: 400px;
+	background: #EFF5F5;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+
+.pimg1 {
+	background-image: url(Images/q.jpg);
+	min-height: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no repeat;
+	background-attachment: fixed;
+}
